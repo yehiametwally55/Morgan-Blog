@@ -1,0 +1,282 @@
+body{
+    box-sizing: border-box;
+}
+.section1{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(images/intro-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.bg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 h2{
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+.section1 h4{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+h4::after{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes typing{
+    0%{content: "I'm S |";}
+    3%{content: "I'm Si |";}
+    6%{content: "I'm Sim |";}
+    9%{content: "I'm Simo |";}
+    12%{content: "I'm Simon |";}
+    15%{content: "I'm Simone|";}
+    18%{content: "I'm Simone |";}
+    21%{content: "I'm Simone O |";}
+    24%{content: "I'm Simone Ol |";}
+    27%{content: "I'm Siomne Oli |";}
+    30%{content: "I'm Simone Oliv |";}
+    33%{content: "I'm Simone Olive |";}
+    36%{content: "I'm Simone Oliver |";}
+    39%{content: "I'm Simone Olive |";}
+    42%{content: "I'm Simone Oliv |";}
+    45%{content: "I'm Simone Oli |";}
+    48%{content: "I'm Simone Ol |";}
+    51%{content: "I'm Simone O |";}
+    54%{content: "I'm Simone  |";}
+    57%{content: "I'm Simone|";}
+    60%{content: "I'm Simon |";}
+    63%{content: "I'm Simo |";}
+    66%{content: "I'm Sim |";}
+    69%{content: "I'm Si |";}
+    72%{content: "I'm S |";}
+    75%{content: "I'm |";}
+    78%{content: "I'm A |";}
+    81%{content: "I'm A D |";}
+    84%{content: "I'm A De |";}
+    87%{content: "I'm A Des |";}
+    90%{content: "I'm A Desi |";}
+    93%{content: "I'm A Desig |";}
+    96%{content: "I'm A Design |";}
+    98%{content: "I'm A Designe |";}
+    100%{content: "I'm A Designer |";}
+
+}
+.content{
+    box-sizing: border-box;
+    padding: 4rem;
+}
+.icons{
+    top: 0;
+    padding: 4rem;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+i{
+    justify-content: center;
+    align-items: center;
+    /* font-size: 4rem; */
+    color: #1e1e1e;
+}
+.card{
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.icons:hover{
+    background-color: #0078ff;
+    border: 10px solid #8aacd2;
+    color: white;
+}
+.section4-content{
+    width: 100%;
+    background-image: url(images/post-3.jpg);
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section4-bg{
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+.section4-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+.section4-icon{
+    margin-top: 4rem;
+    height: 60px;
+    width: 60px;
+    padding: 2rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 8px solid #8aacd2 ;
+    border-radius: 50%;
+}
+.section4-content .content{
+   top: 0;
+}
+.button{
+    font-size: 4rem;
+    float: right;
+}
+.more{
+    float: left;
+}
+.more span{
+    font-size: .8rem;
+}
+.section3 .MImage{
+    display: block;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.section3 .MImage:hover{
+    scale: 1.1;
+}
+.section5{
+    width: 100%;
+    background-image: url(images/overlay-bg.jpg);
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section5-bg{
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+span{
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.carousel-content p{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.section6 .header{
+    text-align: center;
+}
+.section6 .header h3{
+    font-size: 3rem;
+}
+.section6 .card .card-box{
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    overflow: hidden;
+}
+.section6 .card .card-category{
+    display: inline-block;
+    color: #fff;
+    padding: 3px 12px 3px;
+    background-color: #0078ff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.section6 .card-footer .foot{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.section6 .card-footer .bofo{
+    left: 0;
+    display: flex;
+}
+.section6 .card-footer .fo{
+    width: 32px;
+    height: 32px;
+}
+.section6 .card-footer .clock{
+    right: 0;
+   float: right;
+    display: flex;
+    align-items: center;
+}
+.section6 .card-footer .clock .tex{
+    font-size: small;
+}
+.section7{
+    width: 100%;
+    background-image: url(images/overlay-bg.jpg);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section7-bg{
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+.section7-content{
+    position: absolute;
+    background-color: white;
+    opacity: 1;
+    z-index: 1;
+}
+
+ul{
+    list-style: none;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+li{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
